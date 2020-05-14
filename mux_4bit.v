@@ -1,5 +1,5 @@
 
-module mux2( d0, d1, s, y );
+module mux_4bit( d0, d1, s, y );
 input [3:0] d0, d1;
 input s;
 output [3:0] y;
